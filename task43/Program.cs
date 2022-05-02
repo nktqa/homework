@@ -3,11 +3,11 @@
 // значения b1, k1, b2 и k2 задаются пользователем.
 // b1 = 2, k1 = 5, b2 = 4, k2 = 9 -> (-0,5; -0,5)
 
-int b1 = 2;
-int k1 = 5;
-int b2 = 4;
-int k2 = 9;
+double b1 = 2;
+double k1 = 5;
+double b2 = 4;
+double k2 = 9;
 
-int x = (b2 - b1) / (k1 - k2);
+double x = (b2 - b1) / (k1 - k2);
 
 Console.Write($"точка пересечения {x} : {k1*x+b1}");
